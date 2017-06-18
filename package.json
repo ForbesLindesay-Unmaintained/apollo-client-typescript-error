@@ -1,0 +1,20 @@
+{
+  "name": "apollo-client-typescript-error",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "apollo-client": "^1.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  }
+}
